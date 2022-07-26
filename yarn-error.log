@@ -1,0 +1,43 @@
+Arguments: 
+  /home/lestarangelo/.nvm/versions/node/v17.8.0/bin/node /home/lestarangelo/.nvm/versions/node/v17.8.0/bin/yarn init
+
+PATH: 
+  /home/lestarangelo/.asdf/shims:/home/lestarangelo/.asdf/bin:/home/lestarangelo/.nvm/versions/node/v17.8.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  17.8.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/home/lestarangelo/.nvm/versions/node/v17.8.0/lib/node_modules/yarn/lib/cli.js:137143:13)
+      at Interface.emit (node:events:527:28)
+      at Interface.[_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1117:18)
+      at ReadStream.onkeypress (node:internal/readline/interface:269:20)
+      at ReadStream.emit (node:events:527:28)
+      at emitKeys (node:internal/readline/utils:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+      at ReadStream.emit (node:events:527:28)
+      at addChunk (node:internal/streams/readable:324:12)
+
+npm manifest: 
+  {
+    "name": "test",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:lestardeangelo/test.git",
+    "author": "Lestar Angelo <lestarherminio@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
